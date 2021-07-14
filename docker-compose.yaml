@@ -8,7 +8,7 @@ services:
         volumes: 
             - ./users:/home/node/app
 
-    appointments: 
+    logs: 
         build: ./logs/.
         container_name: logs-api
         ports:
